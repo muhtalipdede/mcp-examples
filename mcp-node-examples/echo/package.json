@@ -1,0 +1,33 @@
+{
+    "name": "@muhtalipdede/echo-mcp-server",
+    "version": "0.0.5",
+    "description": "A simple echo server using Model Context Protocol",
+    "main": "dist/index.js",
+    "license": "MIT",
+    "author": "Muhtalip Dede",
+    "homepage": "https://github.com/muhtalipdede/mcp-examples",
+    "bugs": "https://github.com/muhtalipdede/mcp-examples/issues",
+    "type": "module",
+    "bin": {
+      "echo-mcp-server": "dist/index.js"
+    },
+    "files": [
+      "dist"
+    ],
+    "publishConfig": {
+      "access": "public"
+    },
+    "scripts": {
+      "build": "tsc && shx chmod +x dist/*.js",
+      "prepare": "npm run build",
+      "watch": "tsc --watch"
+    },
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "1.0.1"
+    },
+    "devDependencies": {
+      "@types/node": "^22",
+      "shx": "^0.3.4",
+      "typescript": "^5.6.2"
+    }
+  }
