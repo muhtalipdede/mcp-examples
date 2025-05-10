@@ -1,6 +1,6 @@
 {
     "name": "@muhtalipdede/echo-mcp-server",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A simple echo server using Model Context Protocol",
     "main": "dist/index.js",
     "license": "MIT",
